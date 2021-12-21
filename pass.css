@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C4E538;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #12CBC4;
+    overflow: hidden;
+}
+
+.box h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.row {
+    margin: 3px 0;
+}
+
+.form-control {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #95a5a6;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    display: block;
+    background-color: #F8EFBA;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.home a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home a:hover {
+    color: #B33771;
+}
+
+.copy {
+    text-align: center;
+}
+
+.copy span {
+    color: green;
+}
